@@ -24,6 +24,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.1.0'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.4.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
